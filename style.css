@@ -154,3 +154,102 @@ body {
   text-transform: uppercase;
   color: #2f80ed;
 }
+.program-course {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  /* padding: 50px 43px 50px 65px; */
+}
+.program-course-header {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+}
+.summary {
+  padding-top: 60px;
+  padding-left: 65px;
+  padding-right: 20px;
+}
+.summary-item {
+  margin-bottom: 40px;
+}
+.summary-item p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #636363;
+}
+.summary-item .summary-item-header {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #2f80ed;
+}
+.program-course-read-more {
+  margin-left: 65px;
+}
+.program-course-read-more a {
+  font-weight: 600;
+  font-size: 14px;
+  text-align: left;
+  line-height: 28px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #2f80ed;
+  text-decoration: none;
+  border-bottom: 2px dashed #2f80ed;
+}
+.course-result {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  background: #2f80ed;
+}
+.course-result-header {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+.course-result-list {
+  box-sizing: border-box;
+  margin-top: 45px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.course-result-item {
+  box-sizing: border-box;
+  padding: 160px 40px 56px 60px;
+  margin-top: 10px;
+  background: #ffffff;
+  box-shadow: 0px 10px 30px rgba(47, 55, 237, 0.1);
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-position: 60px 56px;
+}
+.course-result-item:first-child {
+  background-image: url("img/customer-result1.png");
+}
+.course-result-item:nth-child(2) {
+  background-image: url("img/customer-result2.png");
+}
+.course-result-item:nth-child(3) {
+  background-image: url("img/customer-result3.png");
+}
+.course-result-item:last-child {
+  background-image: url("img/customer-result4.png");
+}
+.course-result-item p {
+  font-size: 14px;
+  line-height: 25px;
+  color: #636363;
+}
+.course-result-item .course-result-profits {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #2f80ed;
+}
