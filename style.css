@@ -253,3 +253,88 @@ body {
   text-transform: uppercase;
   color: #2f80ed;
 }
+.trust-me {
+  padding: 50px 10px 40px 10px;
+}
+.trust-me video {
+  border-radius: 10px;
+}
+.trust-me-list {
+  box-sizing: border-box;
+  margin-top: 39px;
+  padding-top: 1px;
+}
+.trust-me-item {
+  padding-top: 130px;
+  margin-bottom: 5px;
+  padding-left: 70px;
+  padding-right: 25px;
+  background-repeat: no-repeat;
+  background-position: 70px 40px;
+  background-image: url("img/trust-me1.png");
+}
+.trust-me-item p {
+  font-size: 16px;
+  line-height: 23px;
+  color: #636363;
+}
+.trust-me-item .trust-me-profits {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #2f80ed;
+}
+.reviews {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: rgba(47, 128, 237, 0.05);
+}
+.reviews-header {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #000000;
+}
+.reviews-list {
+  margin: 50px 10px 35px 10px;
+}
+.reviews-item {
+  margin-top: 35px;
+}
+.opinion {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 40px 20px 40px 50px;
+  box-shadow: 0px 10px 30px rgba(47, 55, 237, 0.1);
+}
+.opinion p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #636363;
+}
+.opinion .opinion-header {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #636363;
+}
+.clipper {
+  margin-top: 15px;
+  width: 74px;
+  height: 74px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.reviews-user-image {
+  width: 118px;
+  height: 79px;
+  left: -10px;
+  position: absolute;
+}
