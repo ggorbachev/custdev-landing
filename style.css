@@ -338,3 +338,224 @@ body {
   left: -10px;
   position: absolute;
 }
+.last-courses {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.last-courses-header {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+}
+.last-courses-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-top: 30px;
+}
+.last-courses-photo {
+  width: 158px;
+  padding-bottom: 4px;
+}
+.pricelist {
+  margin-top: 30px;
+  padding-bottom: 40px;
+}
+.pricelist-header {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+}
+.pricelist-list {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.pricelist-item {
+  margin-top: 10px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 65px;
+  background: #ffffff;
+  box-shadow: 0px 20px 50px rgba(47, 55, 237, 0.12);
+  border-radius: 10px;
+}
+.pricelist-item-cost {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #2f80ed;
+}
+.pricelist-item-size {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #2f80ed;
+}
+.pricelist .promo-button {
+  margin-top: 20px;
+  border: 0;
+}
+.course-details {
+  padding-top: 50px;
+  background: #2f80ed;
+}
+.course-details-header {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+.course-details-list {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.course-details-item {
+  width: 285px;
+  height: 350px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 40px;
+  background: #ffffff;
+  box-shadow: 0px 20px 50px rgba(47, 55, 237, 0.12);
+  border-radius: 10px;
+}
+.course-details-item p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #636363;
+}
+.course-details-item .course-details-item-header {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #2f80ed;
+}
+.course-details-item:nth-child(1) .course-details-item-header::before {
+  content: "";
+  display: block;
+  width: 167px;
+  height: 118px;
+  padding-bottom: 20px;
+  background: url("img/course-details1.png") no-repeat;
+}
+.course-details-item:nth-child(2) .course-details-item-header::before {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 80px;
+  padding-bottom: 20px;
+  background: url("img/course-details2.png") no-repeat;
+}
+.course-details-item:nth-child(3) .course-details-item-header::before {
+  content: "";
+  display: block;
+  width: 178px;
+  height: 166px;
+  padding-bottom: 20px;
+  background: url("img/course-details3.png") no-repeat;
+}
+.course-details-item:nth-child(4) .course-details-item-header::before {
+  content: "";
+  display: block;
+  width: 72px;
+  height: 72px;
+  padding-bottom: 20px;
+  background: url("img/course-details4.png") no-repeat;
+}
+.subscribe {
+  padding-top: 110px;
+  padding-bottom: 95px;
+  background: rgba(47, 128, 237, 0.05);
+}
+.subscribe form {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.subscribe-field {
+  box-sizing: border-box;
+  width: 90%;
+  margin-bottom: 20px;
+  padding-top: 13px;
+  padding-left: 40px;
+  padding-bottom: 13px;
+}
+.subscribe .promo-button {
+  margin-top: 20px;
+  border: 0;
+}
+.accessible-cities {
+  padding-top: 35px;
+  padding-bottom: 45px;
+  text-align: center;
+  background: #2f80ed;
+}
+.accessible-cities h2 {
+  display: none;
+}
+.accessible-cities a {
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.accessible-cities .selected {
+  font-weight: bold;
+}
+.accessible-cities .promo-button {
+  margin-top: 30px;
+  border: 0;
+  text-transform: none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2f80ed;
+  background: #ffffff;
+}
+.footer {
+  padding-top: 43px;
+  padding-bottom: 45px;
+  text-align: center;
+  background: #185fbf;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+.footer .documents {
+  margin-bottom: 40px;
+}
+.footer .documents a {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer .documents a:hover {
+  text-decoration: underline;
+}
